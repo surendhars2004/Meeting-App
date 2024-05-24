@@ -67,7 +67,7 @@ export default function Home(){
                             <button onClick={filterMarketingHandler} className={filter == 'marketing' ? "border border-orange-200 bg-orange-100 px-5 py-2 rounded-xl text-orange-400  font-semibold" : "border border-neutral-200 bg-neutral-100 px-5 py-2 rounded-xl  font-semibold" }>
                             Marketing</button>
                     </div>
-                    <div className="flex gap-5 mt-10">
+                    <div className="flex gap-5 mt-10 flex-wrap">
                     {
                         filterMeetings.length> 0 ?
 
